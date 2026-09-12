@@ -17,7 +17,9 @@
 
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
-body { margin: 0; color: var(--ink); background: var(--white); font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; line-height: 1.55; }
+body { margin: 0; color: var(--ink); background: var(--white); 
+    font-family: "Inter", Arial, sans-serif;
+    line-height: 1.55; }
 img { display: block; max-width: 100%; height: auto; }
 a { color: inherit; }
 button, input { font: inherit; }
@@ -36,9 +38,9 @@ button { cursor: pointer; }
 .site-header { background: rgba(255,255,255,.96); border-bottom: 1px solid var(--line); position: sticky; top: 0; z-index: 100; backdrop-filter: blur(12px); }
 .nav-wrap { min-height: 86px; display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: 2rem; position: relative; }
 .brand { display: inline-flex; align-items: center; gap: .75rem; text-decoration: none; min-width: max-content; }
-.brand-mark { width: 48px; height: 48px; border-radius: 50% 50% 46% 54%; display: grid; place-items: center; color: #fff; background: linear-gradient(160deg, var(--pink), var(--berry)); font-family: Georgia, "Times New Roman", serif; font-style: italic; font-weight: 800; font-size: 1.45rem; box-shadow: inset 0 -8px 0 rgba(0,0,0,.08); }
+.brand-mark { width: 48px; height: 48px; border-radius: 50% 50% 46% 54%; display: grid; place-items: center; color: #fff; background: linear-gradient(160deg, var(--pink), var(--berry)); font-family: "DM Serif Display", Georgia, serif; font-weight: 400; font-size: 1.45rem; box-shadow: inset 0 -8px 0 rgba(0,0,0,.08); }
 .brand-text { display: grid; line-height: 1.05; }
-.brand-text strong { font-family: Georgia, "Times New Roman", serif; font-style: italic; color: var(--berry); font-size: 1.58rem; letter-spacing: -.03em; }
+.brand-text strong { font-family: "DM Serif Display", Georgia, serif; font-style: italic  ;color: var(--berry); font-size: 1.58rem; letter-spacing: -.03em; }
 .brand-text small { color: var(--green); font-weight: 800; letter-spacing: .07em; font-size: .61rem; margin-top: .3rem; }
 .primary-nav { display: flex; justify-content: center; gap: 2rem; }
 .primary-nav a { text-decoration: none; font-weight: 750; font-size: .94rem; padding: .65rem .1rem; position: relative; }
@@ -59,7 +61,9 @@ button { cursor: pointer; }
 .hero-grid { min-height: 650px; display: grid; grid-template-columns: .78fr 1.22fr; align-items: center; gap: 2.7rem; padding-block: 68px; }
 .hero-copy { max-width: 550px; position: relative; z-index: 2; }
 .eyebrow { color: var(--green); text-transform: uppercase; font-weight: 900; font-size: .77rem; letter-spacing: .14em; margin: 0 0 .7rem; }
-h1, h2 { font-family: Georgia, "Times New Roman", serif; color: var(--berry-dark); letter-spacing: -.035em; line-height: .98; }
+h1, h2 { font-family: "DM Serif Display", Georgia, serif; 
+  color: var(--berry-dark); 
+  letter-spacing: -.035em; line-height: .98; }
 h1 { font-size: clamp(3.35rem, 5.5vw, 5.55rem); margin: 0 0 1.3rem; }
 h1 span, h2 span { color: var(--pink); }
 .hero-intro { max-width: 510px; font-size: clamp(1rem, 1.25vw, 1.18rem); color: var(--muted); margin: 0 0 1.8rem; }
