@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta name="robots" content="noindex,nofollow">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Berry Bloom Bar serves fresh smoothies, juices and açaí bowls in Richmond, Melbourne.">
+  <title>Berry Bloom Bar | Smoothies, Juices & Açaí</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <div class="topbar" aria-label="Business information">
+    <div class="site-width topbar-inner">
+      <span>231 Bridge Road, Richmond, Melbourne VIC 3121</span>
+      <span>Mon–Sun: 7:00 AM–7:00 PM</span>
+      <button class="topbar-order" type="button" data-open-cart>Order online for pickup or delivery</button>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="site-width nav-wrap">
+      <a class="brand" href="#" aria-label="Berry Bloom Bar home">
+        <span class="brand-mark" aria-hidden="true">B</span>
+        <span class="brand-text">
+          <strong>Berry Bloom</strong>
+          <small>BAR · SMOOTHIES · JUICES · AÇAÍ</small>
+        </span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">Menu</button>
+      <nav id="primary-nav" class="primary-nav" aria-label="Primary navigation">
+        <a class="active" href="#">Home</a>
+        <a href="#favourites">Menu</a>
+        <a href="#story">Our Story</a>
+        <a href="#products">Best Sellers</a>
+        <a href="#footer-contact">Contact</a>
+      </nav>
+
+      <button class="button button-primary nav-order" type="button" data-open-cart>
+        Order Online <span aria-hidden="true">→</span>
+        <span class="cart-count" aria-label="items in cart">0</span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <!-- CodeStitch base retained: Landing + Services #1946. Structure, visuals and content customised. -->
+    <section id="hero-1946" class="hero-section">
+      <div class="site-width hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Freshly made in Richmond</p>
+          <h1>Feel Good <span>in Every Sip</span></h1>
+          <p class="hero-intro">Fresh smoothies, vibrant juices and colourful açaí bowls made daily with fruit-forward ingredients.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#favourites">View Menu</a>
+            <button class="button button-outline" type="button" data-open-cart>Order Online</button>
+          </div>
+          <ul class="hero-benefits" aria-label="Berry Bloom Bar benefits">
+            <li><span class="benefit-dot" aria-hidden="true"></span><span><strong>Real Ingredients</strong><small>Fruit-forward recipes</small></span></li>
+            <li><span class="benefit-dot" aria-hidden="true"></span><span><strong>Made Daily</strong><small>Fresh and colourful</small></span></li>
+            <li><span class="benefit-dot" aria-hidden="true"></span><span><strong>Easy Ordering</strong><small>Pick your favourites</small></span></li>
+          </ul>
+        </div>
+        <picture class="hero-picture">
+          <img src="assets/hero.webp" width="1600" height="900" alt="Berry Bloom Bar logo beside colourful smoothies, fresh juice and an açaí bowl on a bright café counter">
+        </picture>
+      </div>
+    </section>
+
+    <section id="favourites" class="section favourites-section" aria-labelledby="favourites-title">
+      <div class="site-width">
+        <div class="section-heading centered">
+          <p class="eyebrow">Find your favourite</p>
+          <h2 id="favourites-title">Explore Our <span>Favourites</span></h2>
+          <p>Start with a category, then discover a best seller to add to your order.</p>
+        </div>
+
+        <div class="category-grid">
+          <article class="category-card">
+            <img src="assets/smoothies.webp" width="900" height="900" loading="lazy" alt="Three colourful fruit smoothies with berries, mango and kiwi">
+            <div class="card-body">
+              <p class="card-kicker">Blended</p>
+              <h3>Smoothies</h3>
+              <p>Creamy fruit blends made to order for an easy everyday pick.</p>
+              <a href="#products">Explore smoothies <span aria-hidden="true">→</span></a>
+            </div>
+          </article>
+
+          <article class="category-card">
+            <img src="assets/juice.webp" width="900" height="900" loading="lazy" alt="Orange, green and berry juices displayed with fresh fruit">
+            <div class="card-body">
+              <p class="card-kicker">Fresh</p>
+              <h3>Fresh Juices</h3>
+              <p>Bright fruit and green combinations with clean, refreshing flavours.</p>
+              <a href="#products">Explore juices <span aria-hidden="true">→</span></a>
+            </div>
+          </article>
+
+          <article class="category-card">
+            <img src="assets/acai-bowl.webp" width="900" height="900" loading="lazy" alt="Two açaí bowls topped with banana, kiwi, berries, granola and chia seeds">
+            <div class="card-body">
+              <p class="card-kicker">Topped your way</p>
+              <h3>Açaí Bowls</h3>
+              <p>Colourful bowls layered with fruit, crunch and your favourite toppings.</p>
+              <a href="#products">Explore bowls <span aria-hidden="true">→</span></a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="products" class="section products-section" aria-labelledby="products-title">
+      <div class="site-width">
+        <div class="section-heading centered compact">
+          <p class="eyebrow">Popular right now</p>
+          <h2 id="products-title">Best <span>Sellers</span></h2>
+          <p>Four crowd favourites with simple ingredients, clear prices and quick ordering.</p>
+        </div>
+
+        <div class="product-grid">
+          <article class="product-card" data-product="Berry Glow Smoothie" data-price="9.90">
+            <img src="assets/best-seller-1.webp" width="760" height="760" loading="lazy" alt="Pink berry smoothie topped with strawberries, blueberries and mint">
+            <div class="product-content">
+              <h3>Berry Glow Smoothie</h3>
+              <p>Mixed berries, banana, chia seeds and almond milk.</p>
+              <p class="price">$9.90</p>
+              <button class="add-button" type="button">Add to Order</button>
+            </div>
+          </article>
+
+          <article class="product-card" data-product="Mango Passion Smoothie" data-price="10.50">
+            <img src="assets/best-seller-2.webp" width="760" height="760" loading="lazy" alt="Mango and passionfruit smoothie topped with fresh mango and mint">
+            <div class="product-content">
+              <h3>Mango Passion Smoothie</h3>
+              <p>Mango, passionfruit, banana and coconut milk.</p>
+              <p class="price">$10.50</p>
+              <button class="add-button" type="button">Add to Order</button>
+            </div>
+          </article>
+
+          <article class="product-card" data-product="Tropical Sunrise Juice" data-price="8.50">
+            <img src="assets/best-seller-3.webp" width="760" height="760" loading="lazy" alt="Orange tropical juice with orange and pineapple">
+            <div class="product-content">
+              <h3>Tropical Sunrise Juice</h3>
+              <p>Orange, pineapple, mango and a splash of lime.</p>
+              <p class="price">$8.50</p>
+              <button class="add-button" type="button">Add to Order</button>
+            </div>
+          </article>
+
+          <article class="product-card" data-product="Classic Açaí Bowl" data-price="14.90">
+            <img src="assets/best-seller-4.webp" width="760" height="760" loading="lazy" alt="Classic açaí bowl topped with berries, kiwi, banana, granola and chia seeds">
+            <div class="product-content">
+              <h3>Classic Açaí Bowl</h3>
+              <p>Açaí, banana, granola, berries, chia and coconut.</p>
+              <p class="price">$14.90</p>
+              <button class="add-button" type="button">Add to Order</button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CodeStitch base retained: Side By Side Reverse #1363. Heavily customised for the brand story. -->
+    <section id="story" class="section story-section" aria-labelledby="story-title">
+      <div id="sbsr-1363" class="site-width story-grid">
+        <div class="story-image-wrap">
+          <img src="assets/made-fresh-served-local.webp" width="1200" height="900" loading="lazy" alt="Fresh fruit, smoothies, juice and an açaí bowl arranged on a bright local café counter">
+          <div class="story-badge"><strong>Made fresh</strong><span>Served local</span></div>
+        </div>
+
+        <div class="story-copy">
+          <p class="eyebrow">Our approach</p>
+          <h2 id="story-title">Made Fresh. <span>Served Local.</span></h2>
+          <p>Berry Bloom Bar brings bright fruit, simple choices and a relaxed café atmosphere together. The menu is designed to make product discovery quick while keeping the brand fresh, colourful and approachable.</p>
+          <ul class="value-list">
+            <li><span class="value-icon" aria-hidden="true">01</span><div><strong>Locally minded</strong><small>Created around our Richmond community.</small></div></li>
+            <li><span class="value-icon" aria-hidden="true">02</span><div><strong>Quality ingredients</strong><small>Clear, fruit-forward recipes with familiar ingredients.</small></div></li>
+            <li><span class="value-icon" aria-hidden="true">03</span><div><strong>Lower-waste choices</strong><small>Reusable and recyclable options where practical.</small></div></li>
+            <li><span class="value-icon" aria-hidden="true">04</span><div><strong>Made to order</strong><small>Choose a favourite and build an order in a few clicks.</small></div></li>
+          </ul>
+          <a class="button button-outline" href="#products">Choose Your Favourite</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="footer-contact">
+    <div class="site-width footer-grid">
+      <div>
+        <a class="brand brand-footer" href="#">
+          <span class="brand-mark" aria-hidden="true">B</span>
+          <span class="brand-text"><strong>Berry Bloom</strong><small>BAR · SMOOTHIES · JUICES · AÇAÍ</small></span>
+        </a>
+        <p>Fresh smoothies, juices and açaí bowls made daily in Melbourne with bright flavours and a relaxed local feel.</p>
+      </div>
+      <div>
+        <h2>Quick Links</h2>
+        <a href="#">Home</a>
+        <a href="#favourites">Menu</a>
+        <a href="#story">Our Story</a>
+        <a href="#products">Best Sellers</a>
+      </div>
+      <div>
+        <h2>Opening Hours</h2>
+        <p>Mon–Fri&nbsp;&nbsp;7:00 AM–7:00 PM</p>
+        <p>Saturday&nbsp;&nbsp;7:00 AM–7:00 PM</p>
+        <p>Sunday&nbsp;&nbsp;7:00 AM–7:00 PM</p>
+      </div>
+      <div>
+        <h2>Contact</h2>
+        <p>231 Bridge Road<br>Richmond, Melbourne VIC 3121</p>
+        <p>(03) 9421 8866</p>
+        <p>hello@berrybloombar.com.au</p>
+      </div>
+    </div>
+    <div class="site-width footer-bottom">
+      <span>© 2026 Berry Bloom Bar. Fictional business for MCD4740.</span>
+      <span>Fresh • Local • Colourful</span>
+    </div>
+  </footer>
+
+  <div class="cart-backdrop" hidden></div>
+  <aside class="cart-drawer" aria-hidden="true" aria-labelledby="cart-title">
+    <div class="cart-header">
+      <div>
+        <p class="eyebrow">Your selection</p>
+        <h2 id="cart-title">Your Order</h2>
+      </div>
+      <button class="icon-button" type="button" data-close-cart aria-label="Close order">×</button>
+    </div>
+
+    <p id="cart-status" class="sr-only" aria-live="polite"></p>
+    <p class="cart-empty">Your order is empty. Add a best seller to get started.</p>
+    <ul class="cart-items"></ul>
+
+    <div class="cart-footer">
+      <p class="cart-total"><span>Subtotal</span><strong>$0.00</strong></p>
+      <button class="button button-primary checkout-button" type="button" disabled>Continue to Checkout</button>
+      <button class="text-button clear-cart" type="button" disabled>Clear order</button>
+      <small>Prototype interaction only. No payment is processed.</small>
+    </div>
+  </aside>
+</body>
+</html>
